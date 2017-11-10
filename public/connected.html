@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+<title>Pusher Test</title>
+  <link href="assets/plugins/boostrapv3/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/my_style.css">
+</head>
+<body style="background: #eee">
+  <ul id="put-your-channel-here" class="chat-container list-unstyled">
+    <li class="box-chat page-chat">
+      <div class="chatArea">
+        <div class="chat-opt">
+          <label class="who-online">doctor is <span>offline</span></label>
+          <label class="go-offline">leave</label>
+        </div>
+        <ul id="ul_put-your-channel-here" class="messages list-unstyled"></ul>
+      </div>
+      <input id="input_put-your-channel-here" type="text" class="form-control input-message" placeholder="Write something">
+    </li>
+    <li class="box-connecting page-chat">
+      <div class="connect-avt">
+        <img src="http://earnthis.net/wp-content/uploads/2015/03/Sokka-2-50x50.png">
+        <h4 style="margin-top: 5%"> 
+        <div class="rectangle-bounce">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>connecting</h4>
+      </div>
+    </li>
+  </ul>
+ <script src="assets/jquery.min.js"></script>
+<script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+<script type="text/javascript" src="assets/script.js"></script>
+</body>
